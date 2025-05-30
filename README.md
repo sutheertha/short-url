@@ -6,11 +6,11 @@ A simple Node.js + Express application to generate and manage short URLs, simila
 
 ##  Features
 
-- 🔗 Generate short URLs from long links
-- 💾 Store URLs in MongoDB
-- 🕒 Track visit timestamps
-- ↪️ Redirect from short URL to original
-- 🌐 RESTful API endpoints
+-  Generate short URLs from long links
+-  Store URLs in MongoDB
+-  Track visit timestamps
+-  Redirect from short URL to original
+-  RESTful API endpoints
 
 ---
 
@@ -21,12 +21,3 @@ A simple Node.js + Express application to generate and manage short URLs, simila
 - **MongoDB** (with Mongoose)
 - **NanoID** (for generating unique short codes)
 
----
-
-## Installation
-
-```bash
-git clone https://github.com/sutheertha/short-url.git
-cd short-url
-npm install
-npm start
